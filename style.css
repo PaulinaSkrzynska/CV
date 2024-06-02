@@ -1,0 +1,157 @@
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 20px grey;
+}
+ 
+ body {
+    font-family: Arimo;
+    background-color: aliceblue;
+    padding: 40px 0;
+}
+
+.headers {
+    font-family: Barlow;
+}
+
+main {
+    margin: 20px;
+    padding: 40px;
+    width: 65%;
+}
+
+aside {
+    margin: 20px;
+    padding: 20px;
+    width: 35%;
+    background-color: beige;
+}
+
+h1 {
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+span {
+    color: grey;
+}
+
+p {
+    text-align: justify;
+    margin:8px 0px;
+}
+
+header ul {
+    list-style: none
+}
+
+header li {
+    margin-bottom: 15px
+}
+
+.address {
+    list-style: none;
+    padding-left: 0px;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.address-icon {
+width: 16px;
+height: 16px;
+background-color:white;
+margin-right: 10px;
+margin-bottom: 5px;
+padding: 8px;
+vertical-align: middle;
+}
+
+.circle {
+    border-radius: 50%
+}
+
+.profile-picture {
+    display: flex;
+    width: 200px;
+    height: 212px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.hobbies {
+    list-style: none;
+    padding: 0;
+}
+
+.hobbies li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.hobbies div {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.hobbies p {
+    color: grey;
+}
+
+p {
+    line-height: 1.5;
+}
+
+li {
+    line-height: 1.5;
+}
+
+.cv-download-link {
+    border: 2px solid cornflowerblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 26px;
+    transition: background-color 0.5s, color 0.5s;
+    box-shadow: 0 0 20px grey
+}
+
+.cv-download-link:hover {
+    color:white;
+    background-color: cornflowerblue;
+}
+
+.cv-download-link:focus {
+    outline: none;
+    color: white;
+    background-color:cornflowerblue;
+}
+
+.cv-download-link:active {
+    text-decoration: underline;
+}
+
+.education {
+    margin: 8px 0px;
+}
